@@ -1,0 +1,132 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .gymso-text{
+        width: 500px;
+        height: auto;
+        /* background: red; */
+        text-align: left;
+       margin-left: 0;
+        margin-bottom: 6%;
+    }
+    .working-text{
+        width: 400px;
+        height: auto;
+      
+        margin-left: 0;
+        margin-bottom: 6%;
+    }
+    .hero-btn2{ 
+        color: white;
+        background: #F12B17;
+        transition: 0.5S;
+        border-radius: 10px;
+        padding: 12px 0;
+        margin-right: 50px;
+    }
+    .text-box h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .from-width{
+        width: 380px;
+        margin-left: 0px;
+       text-align: left;
+    }
+    .feel-text{
+        margin-left: 0px;
+        padding-bottom: 15px;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: left;
+        font-family: tahoma;
+    }
+    .feel-text2{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        font-family: tahoma;
+    }
+    table{
+        border-collapse: collapse;
+        width: 70%;
+        height: 150px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 6%;
+    }
+    table,th,td{
+        padding: 10px;
+        font-size: 10px;
+        color: white;
+        border: 1px solid #202020;
+    }
+  
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .gymso-text{
+        width: 500px;
+        height: auto;
+        /* background: red; */
+        text-align: left;
+        margin-left: 0;
+        margin-bottom: 6%;
+    }
+    .working-text{
+        width: 400px;
+        height: auto;
+      
+        margin-left: 0;
+        margin-bottom: 6%;
+    }
+    .hero-btn2{ 
+        color: white;
+        background: #F12B17;
+        transition: 0.5S;
+        border-radius: 10px;
+        padding: 12px 0;
+        margin-right: 50px;
+    }
+
+    .from-width{
+        width: 380px;
+        margin-left: 0px;
+       text-align: left;
+    }
+    .feel-text{
+        margin-left: 0px;
+        padding-bottom: 15px;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: left;
+        font-family: tahoma;
+    }
+    .feel-text2{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        font-family: tahoma;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}

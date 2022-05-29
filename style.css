@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 8px 0;
+    
+}
+.menubg{
+    background: #171819 !important;
+}
+
+/* menu bar */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 2, 8, 0.7),rgba(1, 2, 7, 0.7)),url('img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+div ul li a{
+    color: white;
+}
+.hover-color{
+    color: white;
+    
+}
+.hover-color:hover{
+    color: #F12B17;
+}
+.active{
+    color: #F12B17;
+}
+/* .nev-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+    
+
+}
+.nev-links ul li:hover::after{
+    width: 100%;
+} */
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.text-box p{
+    margin: 10px 0 20px;
+    color: white;
+    font-size: 18px;
+    color: rgb(187, 184, 184);
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #F12B17;
+    border: 1px solid #F12B17;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.start{
+    color: white;
+    padding-right: 20px;
+}
+.start:hover{
+    color: #F12B17;
+}
+.hero-btn:hover{
+   
+    background: white;
+    transition: 1s;
+    color: #F12B17;
+}
+
+/* New to the gymso? */
+
+.gymso{
+    width: 100%;
+    background: #171819;
+    padding-top: 70px;
+   
+}
+.gymso-text{
+    width: 475px;
+    height: auto;
+    /* background: red;  */
+    margin-left: 60px;
+    margin-bottom: 6%;
+}
+.gymso-text p{
+    color: #615D5D;
+}
+.working-text{
+    width: 400px;
+    height: auto;
+    /* background: rgb(121, 77, 77); */
+    margin-left: 100px;
+    margin-bottom: 6%;
+}
+.working-text p{
+    color: #615D5D;
+}
+
+.hero-btn2{ 
+    color: white;
+    background: #F12B17;
+    transition: 0.5S;
+    border-radius: 10px;
+    padding: 12px 0;
+}
+.hero-btn2:hover{
+   
+    background: white;
+    color: #F12B17;
+}
+
+/* Hello, we are Gymso */
+.hello{
+    width: 100%;
+    background: #F9F9F9;
+    padding-top: 100px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 6%;
+}
+.text-box2{
+    padding-top: 50px;
+    width: 400px;
+    margin-left: 30px;
+}
+.text-box2 p{
+    color: #615D5D;
+}
+.icons1{
+    margin-top: 12px;
+}
+.icons{
+margin-top: 9px;
+}
+.cards-text-color{
+    color: #615D5D;
+}
+
+
+/* Our Training Classes start */
+
+.traning{
+    width: 100%;
+    /* background: red; */
+     height: auto; 
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.traning h3{
+    color: #615D5D;
+    font: 300;
+    font-size: 20px;
+}
+.traning h1{
+    font-weight: 700;
+    padding: 3px 0;
+}
+
+.traning-btm{
+    margin-bottom: 10%;
+}
+
+.yogo{
+    text-align: left;
+    position: relative;
+}
+.prize{
+
+    background: #F13A11;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 12px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    left: 80%;
+}
+
+/* Our Training Classes end */
+
+ /* Workout Timetable  start  */
+
+
+.workout{
+    width: 100%;
+    background-color: #171819;
+    padding-top: 80px;
+}
+
+.workout h3{
+    color: #615D5D;
+    font: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.workout h1{
+    font-weight: 700;
+    padding: 3px 0;
+    text-align: center;
+    color: white;
+}
+
+/* table */
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 6%;
+}
+table,th,td{
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #202020;
+}
+.head{
+    background: #F12B17;
+    color: white;
+}
+
+
+.icofont-calendar{
+    font-size: 22px;
+}
+
+ /* Workout Timetable  end  */
+
+
+ .find{
+     width: 100%;
+     padding-top: 100px;
+     margin-bottom: 6%;
+
+ }
+ .from-width{
+     width: 380px;
+     margin-left: 70px;
+ }
+ .feel-text{
+     margin-left: 70px;
+     padding-bottom: 15px;
+     font-weight: 600;
+     font-size: 30px;
+     font-family: tahoma;
+ }
+
+ .footer-btn{
+     background: #171819;
+     color: white;
+ }
+ .footer-btn:hover{
+     background: #F13A11;
+     color: white;
+ }
+ .location-text{
+     color: #615D5D;
+     font-family: tahoma;
+     font-weight: 300;
+ }
+ .feel-text2{
+    
+    font-weight: 600;
+    font-size: 30px;
+    font-family: tahoma;
+}
+.location-icons{
+    color: #F12B17;
+}
+
+/* footer start  */
+
+
+.footer{
+    width: 100%;
+    background: #171819;
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+}
+/* footer end  */
+
+.scrollTop {
+    width: 40px;
+    height: 40px;
+    background: #F12B17;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 9px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    transition: all 0.4s;
+    /* display: none; */
+}
+.scrollTop:hover{
+    background: #615D5D;
+    color: #fff;
+}
+.scrollTop a{
+    color: #fff;
+}
+.scrollTop i {
+    font-size: 30px;
+}
+  
